@@ -1,0 +1,12 @@
+<script>
+
+  $("ul").click(function() {
+   var myClass = this.className;
+	window.dataLayer = window.dataLayer || [];
+  	window.dataLayer.push({
+      'event' : 'gtm.click',
+      'gtm.elementClasses' : myClass
+});
+  }
+  );
+</script>
